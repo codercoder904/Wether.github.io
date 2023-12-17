@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Nunito",sans-serif;
+  background: -webkit-linear-gradient(to right, #040404, #72fefe); background: linear-gradient(to bottom, #040404, #1ec2c2);
+   height: 100vh;
+
+
+}
+h1{
+  text-align: center;
+  align-items: center;
+  color: whitesmoke;
+  padding-top: 10px;
+}
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+input[type="submit"]{
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-family: "Nunito",sans-serif;
+  font-weight:bold;
+  font-size: 20px;
+  transition: .3s;
+}
+input[type="submit"]:hover{
+ background: #101111;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 1px #03e9f4,
+              0 0 5px #03e9f4,
+              0 0 5px #03e9f4,
+              0 0 10px #03e9f4;
+}
+
+.input input[type="text"]{
+  width: 20%;
+  padding: 11px 11px;
+  font-size: 16px;
+  color: black;
+  border-radius: 9px;
+  background:gainsboro ;
+}
+
+
+.card{
+  width: 30%;
+  background: #e7e7e7;
+  height: 40vh;
+  margin: 50px auto;
+  border-radius: 6px;
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1{
+  padding: 5px 0;
+  text-align: center;
+  color: blueviolet;
+}
+.card h2{
+  padding: 5px 0;
+  text-align: center;
+
+}
+
+.card p{
+  text-align: center;
+  margin:40px 0;
+  font-size:20px;
+}
